@@ -1,0 +1,81 @@
+@import "lesshat";
+
+body {
+    padding: 3rem 1rem 0;
+    font-family: 'Lato', sans-serif;
+    background: #444;
+}
+
+.presentation {
+    text-align: center;
+.btn-icon {
+    font-size: 5em;
+    margin: 0 0.5em;
+}
+}
+
+   .btn-icon {
+       padding: 0;
+       background: transparent;
+       border-color: transparent;
+       box-shadow: none;
+       cursor: pointer;
+       border-radius: 0;
+&:active, &:focus {
+           .box-shadow(none);
+               border-color: transparent;
+           }
+&:active {
+ .scale(0.9);
+ }
+&:focus {
+     outline: 0 none !important;
+ }
+.glyphicon {
+.transition(color 0.1s ease);
+}
+}
+
+@icon-default-color: #666;
+@icon-star-color: #FECF15;
+@icon-heart-color: #FE4365;
+@icon-bookmark-color: #A6D478;
+
+.btn-icon {
+.glyphicon-star {
+    color: @icon-default-color;
+&:hover {
+     color: fadeout(@icon-default-color, 15%);
+ }
+&.active {
+     color: @icon-star-color;
+&:hover {
+     color: fadeout(@icon-star-color, 15%);
+ }
+}
+}
+.glyphicon-heart {
+    color: @icon-default-color;
+&:hover {
+     color: fadeout(@icon-default-color, 15%);
+ }
+&.active {
+     color: @icon-heart-color;
+&:hover {
+     color: fadeout(@icon-heart-color, 15%);
+ }
+}
+}
+.glyphicon-bookmark {
+    color: @icon-default-color;
+&:hover {
+     color: fadeout(@icon-default-color, 10%);
+ }
+&.active {
+     color: @icon-bookmark-color;
+&:hover {
+     color: fadeout(@icon-bookmark-color, 10%);
+ }
+}
+}
+}

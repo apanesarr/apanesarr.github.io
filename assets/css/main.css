@@ -1645,6 +1645,9 @@
 
 /* Nav */
 
+.active {
+    background-color: #4CAF50;
+}
 	#nav {
 		background-color: #282828;
 		text-align: center;

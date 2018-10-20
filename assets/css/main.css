@@ -2108,3 +2108,50 @@
 				}
 
 	}
+
+/* Style for button "send message" and "clear form" */
+
+.send-message{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px!important;
+    border: 1px solid #1f637d!important;
+    display: inline-block!important;
+    cursor: pointer!important;
+    color: #ffffff!important;
+    font-family: Verdana;
+    font-size: 16px!important;
+    padding: 20px 40px;
+    text-decoration: none!important;
+    text-shadow: 2px 2px 2px #4c8ea9!important;
+	background-color: #43bff0!important;
+	box-shadow: none!important;
+}
+
+.send-message:hover {
+	background-color: #4c8ea9!important;
+}
+
+.clear-form{
+	-webkit-border-radius: 20px;
+    border-radius: 20px!important;
+    border: 1px solid #212223!important;
+    display: inline-block!important;
+    cursor: pointer!important;
+    color: #ffffff!important;
+    font-family: Verdana;
+    font-size: 16px!important;
+    padding: 20px 40px;
+    text-decoration: none!important;
+    text-shadow: 2px 2px 2px #54585a!important;
+	background-color: #3b4042!important;
+	box-shadow: none!important;
+}
+
+.clear-form:hover {
+	background-color: #5a6063!important;
+}
+
+#message{
+	max-width: 100%;
+}

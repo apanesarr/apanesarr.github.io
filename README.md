@@ -1,6 +1,6 @@
-# portfolio
+# Portfolio
 
-> A Vue.js project
+> Personal Portfolio built using Vue.js
 
 ## Build Setup
 

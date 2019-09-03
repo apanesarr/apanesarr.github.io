@@ -5,7 +5,6 @@
         <div class="column">
             <div class="row">
                 <h5>Amandeep <b>Panesar</b></h5>
-                
             </div>
             <h6>Software Engineer</h6>
         </div>

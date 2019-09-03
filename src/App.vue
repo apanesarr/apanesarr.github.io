@@ -1,5 +1,6 @@
 <template>
     <html>
+     <a href="https://iplogger.com" target="_blank"><img src="https://iplogger.org/1oLFj.gif" title="iplogger.com - IP Logging Service" border="0"></a>
     <router-view/>
     </html>
 </template>
